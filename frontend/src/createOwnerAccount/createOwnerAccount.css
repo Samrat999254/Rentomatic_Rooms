@@ -1,0 +1,481 @@
+body {
+  overflow-x: hidden;
+}
+
+.user-account {
+  padding: 0;
+  margin: 0;
+}
+
+.form_filed {
+  margin-left: 20px;
+}
+
+.owner-account .image-area {
+  background: url(./img/home.jpg);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center;
+  /*  object-fit: cover; */
+  width: 100hw;
+  height: 500px;
+  margin-top: -0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.image-area > span {
+  width: 500px;
+}
+
+.owner-account .image-area-text {
+  width: 398px;
+  height: 44px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  margin-left: 50rem;
+  color: #183639;
+}
+
+.owner-account .image-area-text h2 {
+  margin-left: 18rem;
+  margin-top: -1rem;
+}
+
+.image-area-text div {
+  margin-left: 20rem;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  color: #183639;
+}
+
+.owner-account .user-details-title {
+  text-align: left;
+}
+
+.owner-account .user-details input,
+.owner-account .user-details select {
+  /* all: unset; */
+  width: 360px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 25px !important;
+  width: 27px !important;
+}
+
+#ud {
+  border: 1px solid #23656c;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+#ud1 {
+  border: 1px solid #23656c;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+#rd {
+  margin-right: 46vh;
+}
+.profile-title span {
+  margin-left: 2rem;
+}
+
+.raa {
+  margin-left: 2rem;
+  font-size: 24px;
+  font-weight: 700;
+}
+.room-address-title .seperater {
+  width: 85% !important;
+}
+
+.title-and-description {
+  margin: 1.5rem;
+  padding-top: 4vh;
+}
+
+.district {
+  margin-left: 2rem;
+}
+.title-description-title span {
+  margin-left: 2rem;
+
+  font-size: 24px;
+  font-weight: bold;
+  /* margin-top: 10px; */
+}
+
+.right {
+  margin-left: 2rem;
+}
+
+.owner-account .room-details input,
+.owner-account .room-details select {
+  width: 233px;
+  height: 40px;
+  /* background: rgba(255, 255, 255, 0.88); */
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.owner-account label {
+  font-size: 20px;
+}
+
+.owner-account .room-address input,
+.owner-account .room-address select {
+  width: 360px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.owner-account .title-and-description-content {
+  display: flex;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.owner-account .title-and-description-text {
+  /* margin-left: 5rem; */
+  text-align: right;
+  /* margin-right: 10rem; */
+}
+
+.owner-account .title-and-description-text input {
+  width: 327px;
+  height: 40px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.title-and-description-text textarea {
+  /* all: unset; */
+  width: 328px;
+  height: 118px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.title-and-description-text input,
+.title-and-description-text textarea {
+  margin-bottom: 2rem;
+}
+
+.owner-account .user-details {
+  margin: 1rem;
+  text-align: right;
+}
+
+.room-details {
+  margin: 1rem;
+}
+
+.room-address {
+  margin: 1rem;
+  margin-top: 2.5rem;
+  text-align: right;
+}
+
+.room-address-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-address input,
+.room-address select {
+  margin: 1rem 0;
+  margin-right: 45%;
+}
+
+.owner-account .user-details input,
+.owner-account .user-details select {
+  margin-bottom: 1rem;
+  margin-right: 45%;
+}
+
+/*.owner-account input[type="file"] {
+   all: unset !important;
+} */
+.owner-account .user-details-container {
+  width: 100vw;
+  height: 280px;
+
+  display: flex;
+}
+
+.user-details-image {
+  position: absolute;
+  width: 270px;
+  height: 229px;
+  left: 760px;
+  top: 659px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.room-details {
+  margin: 1rem;
+}
+
+.user-details-title span {
+  font-size: 24px;
+  font-weight: bold;
+
+  /* margin-top: 10px; */
+}
+
+.room-details-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.room-details-content__wrapper {
+  width: 40%;
+  text-align: right;
+}
+
+.room-details-content > input,
+.room-details-content select {
+  margin-right: 5rem;
+  margin-bottom: 1rem;
+}
+
+.room-details-title span {
+  font-size: 24px;
+  font-weight: bold;
+  /* margin-top: 10px; */
+}
+
+.room-address-title span {
+  font-size: 24px;
+  font-weight: bold;
+  /* margin-top: 10px; */
+}
+
+.rooms-checkbox {
+  text-align: left !important;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.rooms-checkbox input {
+  margin-left: 3rem;
+  margin-right: 0.3rem;
+  /* margin-bottom: 0.75rem; */
+}
+
+.room-address-title {
+  margin-bottom: 2rem;
+  margin-left: 20rem !important;
+}
+
+.re {
+  margin: 2rem 0;
+  /* margin-left: 25rem; */
+}
+
+.re div div {
+  margin: auto;
+}
+
+.owner-account .terms {
+  margin: 3rem 0;
+  /* margin-left: 20rem; */
+}
+
+.owner-account .terms input {
+  margin-right: 0.6rem;
+}
+
+.owner-account .create {
+  width: 100%;
+  /* margin-left: 25rem; */
+  margin-bottom: 4rem;
+}
+
+.create button {
+  cursor: pointer;
+  /* all: unset; */
+  /* padding-left: 1.25rem; */
+  width: 308px;
+  height: 63px;
+  background: rgb(26 86 219);
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: block;
+}
+.create button:hover {
+  background: #1e429f;
+}
+
+@media screen and (max-width: 700px) {
+  .owner-account .image-area-text div {
+    margin-left: 5rem;
+  }
+
+  .owner-account .image-area-text h2 {
+    margin-left: 5rem;
+  }
+
+  .owner-account .user-details-content-left {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border: #183639;
+  }
+
+  .file {
+    max-width: 80vw;
+    height: 80px !important;
+    margin: 0;
+  }
+
+  .profile {
+    margin-left: 1rem;
+  }
+
+  .owner-account .profile textarea {
+    margin-left: 1rem;
+  }
+
+  .preferences-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+  }
+
+  .owner-account .selection-div {
+    width: 100vw;
+    margin-left: 0rem;
+  }
+
+  .owner-account .selection-div input {
+    margin-left: 3rem;
+    margin-right: 0.3rem;
+  }
+
+  .owner-account .terms {
+    margin-left: 2rem;
+  }
+
+  .owner-account .rec {
+    margin: 3rem 0 1rem 2rem;
+  }
+
+  .terms span {
+    margin-left: 1rem;
+  }
+}
+
+.xyz {
+  margin-right: 0 !important;
+}
+
+.rooms-checkbox > div {
+  justify-content: center;
+  align-items: center;
+}
+
+.filee {
+  padding: 0 42px;
+  margin-top: 17px;
+  display: block;
+}
+
+.title-and-description-image h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.registration-containedddr {
+  background-color: rgb(26 86 219);
+  height: 50px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 0.35rem;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.ok22{
+  margin-left: 18px;
+}
+
+
+.registration-containedddr:hover {
+  background-color: #1e429f;
+}
+
+.registration-containedddrrr {
+  background-color:rgb(26 86 219);
+  height: 50px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 0.35rem;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  /* margin-left: 30px; */
+  cursor: pointer;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-4 {
+  width: 20%;
+}

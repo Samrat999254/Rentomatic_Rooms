@@ -1,0 +1,50 @@
+
+.faq-container-hero {
+  background-image: url(../assets/FAQ.jpg);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  font-size: 2.3rem;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1rem;
+
+}
+.faq-question-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-wrapper {
+  width: 95%;
+  height: 150px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  margin-top: 19px;
+  margin-left: 2.5rem;
+}
+
+.card-header {
+  background: #f8f8f8;
+  /* width: 79%; */
+  height: 70px;
+  padding-left: 22px;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.card-p {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 5px;
+  font-size: 17px;
+}
+
+h1{
+  font-weight: bold;
+ 
+}

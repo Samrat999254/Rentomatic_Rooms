@@ -1,0 +1,71 @@
+.profile-main{
+    width:100vw;
+    display: flex;
+}
+
+.card11{
+ 
+  height: 53.5vh;
+}
+.profile-main img {
+    width: 295px;
+    height: 218px;
+  }
+
+  .row{
+    display: flex;
+  }
+  .col-6{
+    
+    width: 50%;
+  }
+  .col-6 > div{
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .col-6 > div > label{
+    padding-left: 10vh;
+  }
+  .col-6 > div >input{
+    padding:  0px 20px;
+  }
+
+  .object-fit{
+    width: 100%;
+    object-fit: cover;
+    height: 225px;
+  }
+  #data{
+   margin-left: -30px;
+
+  }
+
+  .mantine-wudk7j img{
+    width: 100%;
+    height: 37vh;
+    object-fit: cover;
+  }
+  .full{
+     border-radius: 10px;
+     background: #F8FAF6;
+     border: 1px solid #56888C;
+     
+     margin-left: 25px;
+  }
+  .gap{
+   margin-left: 10px;
+  }
+  #ui{
+    border: 1px solid; 
+    border-radius: 20px;
+   margin-right: 100px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+  }
+.header{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 2px;
+}

@@ -1,0 +1,151 @@
+.slider {
+  position: relative;
+  display: flex;
+}
+.findroom-main-section img {
+  width: 100%;
+  object-fit: cover;
+  height: 13rem;
+}
+.active {
+  background-color: #3b83db !important;
+
+}
+
+.title-main-section {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title-main-section h2 {
+  font-size: 71px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+}
+
+.main-section-hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+.example {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 60%; */
+  flex: 3;
+  /* margin: 0rem 3rem; */
+}
+.example-card {
+  width: 335px;
+  min-width: 294px;
+  /* height: 352px; */
+  background: rgba(255, 255, 255, 0.88);
+  border: 2px solid #23656c;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  /* border-radius: 47px; */
+  margin: 0 1rem;
+}
+.image-description {
+  margin: 1rem 1rem;
+}
+
+.image-description span {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 0.15rem 0;
+}
+
+.image-description-title {
+  display: block;
+  width: 274px;
+  margin-bottom: 1rem;
+  margin-right: 10px;
+  position: relative;
+}
+.heart {
+  position: relative;
+  left: 60%;
+}
+.findroom-main-section .image-description button {
+  cursor: pointer;
+  background-color: #c3d8d9;
+  border-radius: 7px;
+  margin-left: 6rem;
+  width: 4rem;
+  border: 2px solid #23656c;
+  position: absolute;
+  right: 0;
+  padding: 0.2rem;
+}
+
+.icone{
+  cursor: pointer;
+}
+
+.filters {
+  width: 380px;
+  height: 550px;
+  margin-right: 2rem;
+  /* margin-left: 12.5rem !important; */
+  margin-top: -0.3rem !important;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.88);
+  border: 2px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  /* border-radius: 10px; */
+  flex: 1;
+}
+
+.heart:hover {
+  color: red; /* Change this to whatever color you want */
+}
+
+
+.filters .filter-content div {
+  /* width: 320px; */
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  background: #aac8cd;
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  /* border-radius: 10px; */
+}
+.filters .filter-content div button {
+  flex-grow: 1;
+}
+.tenant-btn,
+.room-btn {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.slider-div {
+  width: 320px;
+}
+.slider-main {
+  margin: 0 0rem 0 2rem;
+}
+.slider-mechanism {
+  margin-right: 1rem;
+}
+.selected-btn {
+  background: #aac8cd;
+}
+
+@media screen and (max-width: 600px) {
+  .example {
+    margin-left: 7rem;
+  }
+}

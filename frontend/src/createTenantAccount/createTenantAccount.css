@@ -1,0 +1,333 @@
+.tenant-account {
+  padding: 0;
+}
+
+.tenant-account .image-area {
+  background: url(./img/home.jpg);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center;
+  /*  object-fit: cover; */
+  width: 100hw;
+  height: 500px;
+  margin-top: -0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.image-area {
+  width: 100vw;
+  height: 387px;
+  margin-top: -3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.image-area img {
+  position: absolute;
+  width: 100vw;
+  max-height: 65vh;
+  z-index: -1;
+}
+
+.tenant-account .image-area-text {
+  width: 398px;
+  height: 44px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  margin-left: 50rem;
+  color: #183639;
+}
+
+#ud{
+  border: 1px solid #23656c; 
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.tenant-account .image-area-text h2 {
+  margin-left: 18rem;
+  margin-top: -1rem;
+}
+
+.image-area-text div {
+  /* margin-left: 20rem; */
+  margin-right: 2rem;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  color: #183639;
+}
+
+.data22{
+  margin-right: 51vh;
+}
+.tenant-account .user-details input,
+.tenant-account .user-details select {
+  /* all: unset; */
+  width: 360px;
+  max-width: 80vw;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.tenant-account .user-details .tenant-account .profile input,
+.tenant-account .profile select {
+  width: 279px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+.tenant-account .user-details .tenant-account .profile input,
+.tenant-account .profile input {
+  width: 279px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.tenant-account .profile textarea {
+  all: unset;
+  width: 596px;
+  max-width: 80vw;
+  height: 68px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-left: 3rem;
+}
+
+.tenant-account .user-details-content {
+  display: flex;
+  flex: 1 1;
+  flex-wrap: wrap;
+}
+
+.tenant-account .user-details-content-left {
+  text-align: right;
+  flex: 1;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.tenant-account .user-details-content-right {
+  flex: 1;
+  margin-left: 3rem;
+
+}
+
+.user-details-content-right div {
+  padding: 20px;
+  border: 1px solid #23656c;
+  width: 270px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tenant-account .preferences input,
+.tenant-account .preferences select {
+  width: 360px;
+  max-width: 80vw;
+  height: 40px;
+  /* background: rgba(255, 255, 255, 0.88); */
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.profile-content {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tenant-account .preference select,
+.preference select {
+  width: 360px;
+  max-width: 80vw;
+  height: 40px;
+  /* background: rgba(255, 255, 255, 0.88); */
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.title-and-description-image {
+  margin: 1rem;
+  padding: 2 rem;
+  width: 270px;
+  height: 177px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #23656c;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.user-details-title {
+  margin: 1rem 0;
+  margin-left: 2rem;
+}
+
+.profile-details-title,
+.room-details-title,
+.room-address-title,
+.title-and-description-title {
+  margin: 1.5rem 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.preferences-title {
+  margin: 1rem 0;
+  margin-left: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.preferences-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preferences-content-left,
+.preferences-content-right {
+  flex: 1;
+  text-align: right;
+  margin-right: 5rem;
+}
+
+.tenant-account .selection-div {
+  width: 90vw;
+  margin-left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tenant-account .selection-div input {
+  margin-left: 4rem;
+  margin-right: 0.3rem;
+}
+
+.tenant-account .rec {
+  width: 65vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.tenant-account .terms {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.tenant-account .terms input {
+  margin-right: 1rem;
+}
+
+.tenant-account .create {
+  width: 65vw;
+  margin-left: 20vw;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 700px) {
+  .tenant-account .image-area-text div {
+    margin-left: 5rem;
+  }
+
+  .tenant-account .image-area-text h2 {
+    margin-left: 5rem;
+  }
+
+  .tenant-account .user-details-content-left {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .file {
+    max-width: 80vw;
+    height: 80px !important;
+    margin: 0;
+  }
+
+  .profile {
+    margin-left: 1rem;
+  }
+
+  .tenant-account .profile textarea {
+    margin-left: 1rem;
+  }
+
+  .preferences-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+  }
+
+  .tenant-account .selection-div {
+    width: 100vw;
+    margin-left: 0rem;
+  }
+
+  .tenant-account .selection-div input {
+    margin-left: 3rem;
+    margin-right: 0.3rem;
+  }
+
+  .tenant-account .terms {
+    margin-left: 2rem;
+  }
+
+  .tenant-account .rec {
+    margin: 3rem 0 1rem 2rem;
+  }
+
+  .terms span {
+    margin-left: 1rem;
+  }
+}

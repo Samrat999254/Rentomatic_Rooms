@@ -1,0 +1,85 @@
+.bg-darks{
+  background-color: rgba(238, 229, 229, 0.207);;
+}
+.container {
+
+  padding-top: 5rem;
+}
+
+.listing-container {
+  width: 75vw;
+  margin: 0rem 1rem 0rem 10rem;
+  display: flex;
+  padding: 2.5rem 2.5rem 4rem 2.5rem;
+  background-color: rgba(241, 245, 248, 0.747);
+  border-radius: 5px;
+  box-shadow: 1px 1px 17px rgba(121, 86, 86, 0.25);
+}
+
+.listing-container-image img {
+  width: 35vw;
+  height: 65vh;
+  object-fit: contain;
+  margin-right: 4rem;
+}
+
+.listing-container-content {
+  width: 30vw;
+  padding-left: 3rem;
+  color: rgb(95, 94, 94);
+}
+.listing-container .content-description {
+  display: flex;
+}
+.listing-container .content-description-type ul {
+  margin-left: -3rem;
+  font-size: 1rem;
+
+  /* font-weight: bold; */
+}
+.listing-container .content-description-map {
+  background-color: gray;
+  height: 5rem;
+}
+.listing-container .content-description-content {
+  text-align: right;
+  font-size: 1rem;
+  margin-left: 8rem;
+}
+.container .input {
+  padding: 3rem 0;
+  margin-left: 20vw;
+  display: flex;
+}
+
+.input div {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(65, 64, 64);
+  border-radius: 5px;
+  padding: 0px 0.35rem;
+}
+
+.input button {
+  height: 45px;
+  width: 350px;
+}
+.container .input input {
+  all: unset;
+  height: 40px;
+  width: 350px;
+  border: none;
+  padding-left: 0.25rem;
+}
+
+.input input {
+  margin-right: 2rem;
+}
+.input button {
+  /* padding: 1rem 0; */
+  height: 8vh;
+  margin-left: 15rem;
+  font-weight: 500;
+  background-color: #33AEED;
+  border-radius: 5px;
+}

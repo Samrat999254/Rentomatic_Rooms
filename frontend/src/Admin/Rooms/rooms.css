@@ -1,0 +1,25 @@
+.cards-wrapper {
+  position: absolute;
+  width: 271px;
+  height: 127px;
+  left: 299px;
+  top: 200px;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.cards-wrapper1 {
+  position: absolute;
+  width: 271px;
+  height: 127px;
+  left: 600px;
+  top: 200px;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.w-800{
+  width: 800px;
+  margin: 60px 40px;
+}
